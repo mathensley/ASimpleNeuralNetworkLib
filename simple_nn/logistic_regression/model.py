@@ -35,4 +35,3 @@ def train_model(X_train, Y_train, X_test, Y_test, num_iterations=1000, learning_
                   "learning_rate": learning_rate,
                   "num_iterations": num_iterations}
     return model_info
-

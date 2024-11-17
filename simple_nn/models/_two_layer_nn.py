@@ -63,7 +63,7 @@ class TwoLayerNNModel:
             W2, b2 = self.params["W2"], self.params["b2"]
 
             if self.verbose and i % 100 == 0 or i == self.num_iterations - 1:
-                print(f"Cost after iteration {i}: {cost}")
+                print("Cost after the " + str(i) + "th iteration: " + str(cost))
             if i % 100 == 0 or i == self.num_iterations:
                 self.costs.append(cost)
     
