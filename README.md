@@ -8,14 +8,23 @@ This is a simple library I created as part of my studies in deep learning and ma
 2. **Two-Layer Neural Network Model**
 3. **N-Layer Neural Network Model**
 
-The library is specifically designed for binary classification problems.
+**Note**: The library is in an experimental stage and is specifically designed for binary classification problems. A few features for possible future updates:
 
-## Limitations and Future Improvements
+- Saving and loading model parameters.
+- Support for custom activation functions and loss functions.
+- GPU support using libraries like PyTorch or TensorFlow.
 
-The library is currently in an experimental version, a few planned improvements:
+## Prerequisites
 
-- **Saving and Loading Model Parameters**: At the moment, model parameters are not saved after training. The next step is to allow saving and loading of trained models for later use.
-  
-- **Custom Activation and Loss Functions**: Currently, there's only support for fixed activation functions (ReLU, Sigmoid) and a fixed loss function (cross-entropy).
-  
-- **GPU Support**: The library does not yet support GPU acceleration, but in the future, integration with either PyTorch or TensorFlow to speed up training for larger models and datasets is a possibility.
+Before installing, ensure you have the following:
+
+- **Python** (Version 3.6 or higher)
+- **pip**
+- **NumPy**
+
+## Installation
+
+To install the library directly from the GitHub repository, use the following command:
+
+```bash
+pip install git+https://github.com/mathensley/ASimpleNeuralNetworkLib.git
