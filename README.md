@@ -18,4 +18,4 @@ The library is currently in an experimental version, a few planned improvements:
   
 - **Custom Activation and Loss Functions**: Currently, there's only support for fixed activation functions (ReLU, Sigmoid) and a fixed loss function (cross-entropy).
   
-- **GPU Support**: The library does not yet support GPU acceleration, but in the future, integration with either PyTorch or TensorFlow to speed up training for larger models and datasets is a possibiliyy.
+- **GPU Support**: The library does not yet support GPU acceleration, but in the future, integration with either PyTorch or TensorFlow to speed up training for larger models and datasets is a possibility.

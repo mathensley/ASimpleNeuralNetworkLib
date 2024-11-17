@@ -11,7 +11,7 @@ setup(
     long_description=open('readme.md').read(),
     long_description_content_type='text/markdown',
     author="Matheus Hensley",
-    url="",
+    url="https://github.com/mathensley/ASimpleNeuralNetworkLib.git",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
