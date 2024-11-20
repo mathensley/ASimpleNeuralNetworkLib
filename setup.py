@@ -8,8 +8,6 @@ setup(
         "numpy"
     ],
     description="A simple neural network library for practicing deep learning and machine learning concepts.",
-    long_description=open('readme.md').read(),
-    long_description_content_type='text/markdown',
     author="Matheus Hensley",
     url="https://github.com/mathensley/ASimpleNeuralNetworkLib.git",
     classifiers=[
